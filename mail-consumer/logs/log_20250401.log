@@ -1,0 +1,50 @@
+{"level":"info","msg":"Redpanda Broker: cvio04uh700cr0ipltag.any.us-east-1.mpx.prd.cloud.redpanda.com:9092","time":"2025-04-01T14:31:59Z"}
+{"level":"info","msg":"Connecting to broker: cvio04uh700cr0ipltag.any.us-east-1.mpx.prd.cloud.redpanda.com:9092","time":"2025-04-01T14:31:59Z"}
+{"level":"fatal","msg":"Failed to connect to Redpanda: invalid autocommit options specified when a group was not specified","time":"2025-04-01T14:31:59Z"}
+{"level":"info","msg":"Redpanda Broker: cvio04uh700cr0ipltag.any.us-east-1.mpx.prd.cloud.redpanda.com:9092","time":"2025-04-01T14:38:00Z"}
+{"level":"info","msg":"Connecting to broker: cvio04uh700cr0ipltag.any.us-east-1.mpx.prd.cloud.redpanda.com:9092","time":"2025-04-01T14:38:00Z"}
+{"level":"info","msg":"Starting to poll for messages from topic 'emails'","time":"2025-04-01T14:38:00Z"}
+{"level":"info","msg":"Received message: {\"to\": \"adrielnicolson1@gmail.com\", \"subject\": \"Test Email\", \"message\": \"This is a test email to adriel personal email\"}\r","time":"2025-04-01T14:38:07Z"}
+{"level":"info","msg":"Sending email to adrielnicolson1@gmail.com via mailhog:1025","time":"2025-04-01T14:38:07Z"}
+{"level":"info","msg":"Email sent successfully to adrielnicolson1@gmail.com","time":"2025-04-01T14:38:07Z"}
+{"level":"info","msg":"Email sent successfully for message: {\"to\": \"adrielnicolson1@gmail.com\", \"subject\": \"Test Email\", \"message\": \"This is a test email to adriel personal email\"}\r","time":"2025-04-01T14:38:07Z"}
+{"level":"info","msg":"Received message: {\"to\": \"adrielnicolson1@gmail.com\", \"subject\": \"Test Email\", \"message\": \"This is a test email to Adriel's personal email 2\"}\r","time":"2025-04-01T14:38:07Z"}
+{"level":"info","msg":"Sending email to adrielnicolson1@gmail.com via mailhog:1025","time":"2025-04-01T14:38:07Z"}
+{"level":"info","msg":"Email sent successfully to adrielnicolson1@gmail.com","time":"2025-04-01T14:38:07Z"}
+{"level":"info","msg":"Email sent successfully for message: {\"to\": \"adrielnicolson1@gmail.com\", \"subject\": \"Test Email\", \"message\": \"This is a test email to Adriel's personal email 2\"}\r","time":"2025-04-01T14:38:07Z"}
+{"level":"info","msg":"Received message: {\"to\": \"recipient1@example.com\", \"subject\": \"Test Email 1\", \"message\": \"This is a test email to recipient 1\"}\r","time":"2025-04-01T14:38:07Z"}
+{"level":"info","msg":"Sending email to recipient1@example.com via mailhog:1025","time":"2025-04-01T14:38:07Z"}
+{"level":"info","msg":"Email sent successfully to recipient1@example.com","time":"2025-04-01T14:38:07Z"}
+{"level":"info","msg":"Email sent successfully for message: {\"to\": \"recipient1@example.com\", \"subject\": \"Test Email 1\", \"message\": \"This is a test email to recipient 1\"}\r","time":"2025-04-01T14:38:07Z"}
+{"level":"info","msg":"Received message: {\"to\": \"recipient2@example.com\", \"subject\": \"Test Email 2\", \"message\": \"This is a test email to recipient 2\"}\r","time":"2025-04-01T14:38:20Z"}
+{"level":"info","msg":"Sending email to recipient2@example.com via mailhog:1025","time":"2025-04-01T14:38:20Z"}
+{"level":"info","msg":"Email sent successfully to recipient2@example.com","time":"2025-04-01T14:38:20Z"}
+{"level":"info","msg":"Email sent successfully for message: {\"to\": \"recipient2@example.com\", \"subject\": \"Test Email 2\", \"message\": \"This is a test email to recipient 2\"}\r","time":"2025-04-01T14:38:20Z"}
+{"level":"info","msg":"Redpanda Broker: cvio04uh700cr0ipltag.any.us-east-1.mpx.prd.cloud.redpanda.com:9092","time":"2025-04-01T14:38:55Z"}
+{"level":"info","msg":"Connecting to broker: cvio04uh700cr0ipltag.any.us-east-1.mpx.prd.cloud.redpanda.com:9092","time":"2025-04-01T14:38:55Z"}
+{"level":"info","msg":"Starting to poll for messages from topic 'emails'","time":"2025-04-01T14:38:55Z"}
+{"level":"info","msg":"Redpanda Broker: cvio04uh700cr0ipltag.any.us-east-1.mpx.prd.cloud.redpanda.com:9092","time":"2025-04-01T14:39:37Z"}
+{"level":"info","msg":"Connecting to broker: cvio04uh700cr0ipltag.any.us-east-1.mpx.prd.cloud.redpanda.com:9092","time":"2025-04-01T14:39:37Z"}
+{"level":"info","msg":"Starting to poll for messages from topic 'emails'","time":"2025-04-01T14:39:37Z"}
+{"level":"info","msg":"Redpanda Broker: cvio04uh700cr0ipltag.any.us-east-1.mpx.prd.cloud.redpanda.com:9092","time":"2025-04-01T15:13:58Z"}
+{"level":"info","msg":"Connecting to broker: cvio04uh700cr0ipltag.any.us-east-1.mpx.prd.cloud.redpanda.com:9092","time":"2025-04-01T15:13:58Z"}
+{"level":"info","msg":"Starting to poll for messages from topic 'emails'","time":"2025-04-01T15:13:58Z"}
+{"level":"info","msg":"Received message: {\"to\": \"recipient2@example.com\", \"message\": \"This is a test email to recipient 3\", \"subject\": \"Test Email 3\"}\r","time":"2025-04-01T15:28:58Z"}
+{"level":"info","msg":"Sending email to recipient2@example.com via mailhog:1025","time":"2025-04-01T15:28:58Z"}
+{"level":"info","msg":"Email sent successfully to recipient2@example.com","time":"2025-04-01T15:28:58Z"}
+{"level":"info","msg":"Email sent successfully for message: {\"to\": \"recipient2@example.com\", \"message\": \"This is a test email to recipient 3\", \"subject\": \"Test Email 3\"}\r","time":"2025-04-01T15:28:58Z"}
+{"level":"info","msg":"Received message: {\r\n    \"Subject\": \"Email Verify RedPanda\",\r\n    \"To\": \"Adrielnicholson@gmail.com\",\r\n    \"Message\": \"Hello World\"\r\n}","time":"2025-04-01T15:48:35Z"}
+{"level":"info","msg":"Sending email to Adrielnicholson@gmail.com via mailhog:1025","time":"2025-04-01T15:48:35Z"}
+{"level":"info","msg":"Email sent successfully to Adrielnicholson@gmail.com","time":"2025-04-01T15:48:35Z"}
+{"level":"info","msg":"Email sent successfully for message: {\r\n    \"Subject\": \"Email Verify RedPanda\",\r\n    \"To\": \"Adrielnicholson@gmail.com\",\r\n    \"Message\": \"Hello World\"\r\n}","time":"2025-04-01T15:48:35Z"}
+{"level":"info","msg":"Redpanda Broker: cvio04uh700cr0ipltag.any.us-east-1.mpx.prd.cloud.redpanda.com:9092","time":"2025-04-01T17:52:18Z"}
+{"level":"info","msg":"Connecting to broker: cvio04uh700cr0ipltag.any.us-east-1.mpx.prd.cloud.redpanda.com:9092","time":"2025-04-01T17:52:18Z"}
+{"level":"info","msg":"Starting to poll for messages from topic 'emails'","time":"2025-04-01T17:52:18Z"}
+{"level":"error","msg":"Failed to fetch messages from topic  partition 0: unable to join group session: UNKNOWN_MEMBER_ID: The coordinator is not aware of this member.","time":"2025-04-01T18:28:51Z"}
+{"level":"info","msg":"Redpanda Broker: cvio04uh700cr0ipltag.any.us-east-1.mpx.prd.cloud.redpanda.com:9092","time":"2025-04-01T19:31:44Z"}
+{"level":"info","msg":"Connecting to broker: cvio04uh700cr0ipltag.any.us-east-1.mpx.prd.cloud.redpanda.com:9092","time":"2025-04-01T19:31:44Z"}
+{"level":"info","msg":"Starting to poll for messages from topic 'emails'","time":"2025-04-01T19:31:44Z"}
+{"level":"info","msg":"Received message: {\"to\": \"recipient1@example.com\", \"subject\": \"Email Verification 1\", \"message\": \"This is a test message to ensure the data is being consumed from the eventbroker and sent to the respective emails\"}\r","time":"2025-04-01T19:36:01Z"}
+{"level":"info","msg":"Sending email to recipient1@example.com via mailhog:1025","time":"2025-04-01T19:36:01Z"}
+{"level":"info","msg":"Email sent successfully to recipient1@example.com","time":"2025-04-01T19:36:01Z"}
+{"level":"info","msg":"Email sent successfully for message: {\"to\": \"recipient1@example.com\", \"subject\": \"Email Verification 1\", \"message\": \"This is a test message to ensure the data is being consumed from the eventbroker and sent to the respective emails\"}\r","time":"2025-04-01T19:36:01Z"}

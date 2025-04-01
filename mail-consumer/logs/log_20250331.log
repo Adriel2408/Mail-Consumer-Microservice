@@ -1,0 +1,120 @@
+{"level":"info","msg":"Redpanda Broker: cvio04uh700cr0ipltag.any.us-east-1.mpx.prd.cloud.redpanda.com:9092","time":"2025-03-31T15:02:11Z"}
+{"level":"info","msg":"Connecting to broker: cvio04uh700cr0ipltag.any.us-east-1.mpx.prd.cloud.redpanda.com:9092","time":"2025-03-31T15:02:11Z"}
+{"level":"info","msg":"Starting to poll for messages from topic 'emails'","time":"2025-03-31T15:02:11Z"}
+{"level":"info","msg":"Received message: {  \"to\": \"recipient@example.com\",  \"subject\": \"Test Email\",  \"message\": \"This is a test email.\"}\r","time":"2025-03-31T15:02:13Z"}
+{"level":"info","msg":"Sending email to recipient@example.com via mailhog:1025","time":"2025-03-31T15:02:13Z"}
+{"level":"info","msg":"Email sent successfully to recipient@example.com","time":"2025-03-31T15:02:13Z"}
+{"level":"info","msg":"Email sent successfully for message: {  \"to\": \"recipient@example.com\",  \"subject\": \"Test Email\",  \"message\": \"This is a test email.\"}\r","time":"2025-03-31T15:02:13Z"}
+{"level":"info","msg":"Received message: {\"to\": \"recipient@example.com\", \"subject\": \"Test Email\", \"message\": \"This is a test message\"}\r","time":"2025-03-31T15:02:13Z"}
+{"level":"info","msg":"Sending email to recipient@example.com via mailhog:1025","time":"2025-03-31T15:02:13Z"}
+{"level":"info","msg":"Email sent successfully to recipient@example.com","time":"2025-03-31T15:02:13Z"}
+{"level":"info","msg":"Email sent successfully for message: {\"to\": \"recipient@example.com\", \"subject\": \"Test Email\", \"message\": \"This is a test message\"}\r","time":"2025-03-31T15:02:13Z"}
+{"level":"info","msg":"Received message: {\"to\": \"recipient@example.com\", \"subject\": \"Verfiy Test\", \"message\": \"Finally works????\"}\r","time":"2025-03-31T15:04:59Z"}
+{"level":"info","msg":"Sending email to recipient@example.com via mailhog:1025","time":"2025-03-31T15:04:59Z"}
+{"level":"info","msg":"Email sent successfully to recipient@example.com","time":"2025-03-31T15:04:59Z"}
+{"level":"info","msg":"Email sent successfully for message: {\"to\": \"recipient@example.com\", \"subject\": \"Verfiy Test\", \"message\": \"Finally works????\"}\r","time":"2025-03-31T15:04:59Z"}
+{"level":"info","msg":"Received message: {\r\n    \"to\": \"recipient@example.com\", \r\n    \"subject\": \"Redpanda Test\", \r\n    \"message\": \"Redpanda Sent this email????\"\r\n}\r\n\r\n","time":"2025-03-31T15:06:03Z"}
+{"level":"info","msg":"Sending email to recipient@example.com via mailhog:1025","time":"2025-03-31T15:06:03Z"}
+{"level":"info","msg":"Email sent successfully to recipient@example.com","time":"2025-03-31T15:06:03Z"}
+{"level":"info","msg":"Email sent successfully for message: {\r\n    \"to\": \"recipient@example.com\", \r\n    \"subject\": \"Redpanda Test\", \r\n    \"message\": \"Redpanda Sent this email????\"\r\n}\r\n\r\n","time":"2025-03-31T15:06:03Z"}
+{"level":"error","msg":"Invalid message format: invalid character 'Y' looking for beginning of value","time":"2025-03-31T15:06:37Z"}
+{"level":"info","msg":"Received message: {\"to\": \"adrielnicolson1@gmail.com\", \"subject\": \"Verfiy Test\", \"message\": \"Finally works????\"}\r","time":"2025-03-31T15:20:59Z"}
+{"level":"info","msg":"Sending email to adrielnicolson1@gmail.com via mailhog:1025","time":"2025-03-31T15:20:59Z"}
+{"level":"info","msg":"Email sent successfully to adrielnicolson1@gmail.com","time":"2025-03-31T15:20:59Z"}
+{"level":"info","msg":"Email sent successfully for message: {\"to\": \"adrielnicolson1@gmail.com\", \"subject\": \"Verfiy Test\", \"message\": \"Finally works????\"}\r","time":"2025-03-31T15:20:59Z"}
+{"level":"info","msg":"Received message: {\"to\": \"adrielnicolson1@gmail.com\", \"subject\": \"Address Test\", \"message\": \"Email Address  works????\"}\r","time":"2025-03-31T18:53:20Z"}
+{"level":"info","msg":"Sending email to adrielnicolson1@gmail.com via mailhog:1025","time":"2025-03-31T18:53:20Z"}
+{"level":"info","msg":"Email sent successfully to adrielnicolson1@gmail.com","time":"2025-03-31T18:53:20Z"}
+{"level":"info","msg":"Email sent successfully for message: {\"to\": \"adrielnicolson1@gmail.com\", \"subject\": \"Address Test\", \"message\": \"Email Address  works????\"}\r","time":"2025-03-31T18:53:20Z"}
+{"level":"info","msg":"Received message: {\"to\": \"adrielnicolson1@gmail.com\", \"subject\": \"Address Test\", \"message\": \"Email Address  works????\"}\r","time":"2025-03-31T18:53:42Z"}
+{"level":"info","msg":"Sending email to adrielnicolson1@gmail.com via mailhog:1025","time":"2025-03-31T18:53:42Z"}
+{"level":"info","msg":"Email sent successfully to adrielnicolson1@gmail.com","time":"2025-03-31T18:53:42Z"}
+{"level":"info","msg":"Email sent successfully for message: {\"to\": \"adrielnicolson1@gmail.com\", \"subject\": \"Address Test\", \"message\": \"Email Address  works????\"}\r","time":"2025-03-31T18:53:42Z"}
+{"level":"info","msg":"Redpanda Broker: cvio04uh700cr0ipltag.any.us-east-1.mpx.prd.cloud.redpanda.com:9092","time":"2025-03-31T18:55:19Z"}
+{"level":"info","msg":"Connecting to broker: cvio04uh700cr0ipltag.any.us-east-1.mpx.prd.cloud.redpanda.com:9092","time":"2025-03-31T18:55:19Z"}
+{"level":"info","msg":"Starting to poll for messages from topic 'emails'","time":"2025-03-31T18:55:19Z"}
+{"level":"info","msg":"Received message: {\"to\": \"adrielnicolson1@gmail.com\", \"subject\": \"Address Test\", \"message\": \"Email Address  works????\"}\r","time":"2025-03-31T18:55:20Z"}
+{"level":"info","msg":"Sending email to adrielnicolson1@gmail.com via mailhog:1025","time":"2025-03-31T18:55:20Z"}
+{"level":"info","msg":"Email sent successfully to adrielnicolson1@gmail.com","time":"2025-03-31T18:55:20Z"}
+{"level":"info","msg":"Email sent successfully for message: {\"to\": \"adrielnicolson1@gmail.com\", \"subject\": \"Address Test\", \"message\": \"Email Address  works????\"}\r","time":"2025-03-31T18:55:20Z"}
+{"level":"info","msg":"Received message: {\"to\": \"adrielnicolson1@gmail.com\", \"subject\": \"Address Test\", \"message\": \"Email Address  works????\"}\r","time":"2025-03-31T18:55:20Z"}
+{"level":"info","msg":"Sending email to adrielnicolson1@gmail.com via mailhog:1025","time":"2025-03-31T18:55:20Z"}
+{"level":"info","msg":"Email sent successfully to adrielnicolson1@gmail.com","time":"2025-03-31T18:55:21Z"}
+{"level":"info","msg":"Email sent successfully for message: {\"to\": \"adrielnicolson1@gmail.com\", \"subject\": \"Address Test\", \"message\": \"Email Address  works????\"}\r","time":"2025-03-31T18:55:21Z"}
+{"level":"info","msg":"Received message: {\"to\": \"adrielnicolson1@gmail.com\", \"subject\": \"Address Test\", \"message\": \"Email Address  works????\"}\r","time":"2025-03-31T18:55:45Z"}
+{"level":"info","msg":"Sending email to adrielnicolson1@gmail.com via mailhog:1025","time":"2025-03-31T18:55:45Z"}
+{"level":"info","msg":"Email sent successfully to adrielnicolson1@gmail.com","time":"2025-03-31T18:55:45Z"}
+{"level":"info","msg":"Email sent successfully for message: {\"to\": \"adrielnicolson1@gmail.com\", \"subject\": \"Address Test\", \"message\": \"Email Address  works????\"}\r","time":"2025-03-31T18:55:45Z"}
+{"level":"info","msg":"Redpanda Broker: redpanda:9092","time":"2025-03-31T21:08:26Z"}
+{"level":"info","msg":"Connecting to broker: redpanda:9092","time":"2025-03-31T21:08:26Z"}
+{"level":"info","msg":"Starting to poll for messages from topic 'emails'","time":"2025-03-31T21:08:26Z"}
+{"level":"info","msg":"Redpanda Broker: cvio04uh700cr0ipltag.any.us-east-1.mpx.prd.cloud.redpanda.com:9092","time":"2025-03-31T21:10:57Z"}
+{"level":"info","msg":"Connecting to broker: cvio04uh700cr0ipltag.any.us-east-1.mpx.prd.cloud.redpanda.com:9092","time":"2025-03-31T21:10:57Z"}
+{"level":"info","msg":"Starting to poll for messages from topic 'emails'","time":"2025-03-31T21:10:57Z"}
+{"level":"info","msg":"Received message: {\"to\": \"recipient@example.com\", \"subject\": \"Email Email\", \"message\": \"This is a Email Test message\"}\r","time":"2025-03-31T21:10:59Z"}
+{"level":"info","msg":"Sending email to recipient@example.com via mailhog:1025","time":"2025-03-31T21:10:59Z"}
+{"level":"info","msg":"Email sent successfully to recipient@example.com","time":"2025-03-31T21:10:59Z"}
+{"level":"info","msg":"Email sent successfully for message: {\"to\": \"recipient@example.com\", \"subject\": \"Email Email\", \"message\": \"This is a Email Test message\"}\r","time":"2025-03-31T21:10:59Z"}
+{"level":"info","msg":"Received message: {\"to\": \"recipient@example.com\", \"subject\": \"Email Email\", \"message\": \"This is a Email Test message 24\"}\r","time":"2025-03-31T21:12:16Z"}
+{"level":"info","msg":"Sending email to recipient@example.com via mailhog:1025","time":"2025-03-31T21:12:16Z"}
+{"level":"info","msg":"Email sent successfully to recipient@example.com","time":"2025-03-31T21:12:16Z"}
+{"level":"info","msg":"Email sent successfully for message: {\"to\": \"recipient@example.com\", \"subject\": \"Email Email\", \"message\": \"This is a Email Test message 24\"}\r","time":"2025-03-31T21:12:16Z"}
+{"level":"info","msg":"Redpanda Broker: cvio04uh700cr0ipltag.any.us-east-1.mpx.prd.cloud.redpanda.com:9092","time":"2025-03-31T21:48:14Z"}
+{"level":"info","msg":"Connecting to broker: cvio04uh700cr0ipltag.any.us-east-1.mpx.prd.cloud.redpanda.com:9092","time":"2025-03-31T21:48:14Z"}
+{"level":"info","msg":"Starting to poll for messages from topic 'emails'","time":"2025-03-31T21:48:14Z"}
+{"level":"info","msg":"Received message: {\"to\": \"recipient@example.com\", \"subject\": \"Email Email\", \"message\": \"This is a Email Test message\"}\r","time":"2025-03-31T21:48:17Z"}
+{"level":"info","msg":"Sending email to recipient@example.com via smtp.mail.yahoo.com:587","time":"2025-03-31T21:48:17Z"}
+{"level":"error","msg":"SMTP SendMail error: 535 5.7.0 (#AUTH005) Too many bad auth attempts.","time":"2025-03-31T21:48:17Z"}
+{"level":"error","msg":"Failed to send email: 535 5.7.0 (#AUTH005) Too many bad auth attempts.","time":"2025-03-31T21:48:17Z"}
+{"level":"info","msg":"Received message: {\"to\": \"recipient@example.com\", \"subject\": \"Email Email\", \"message\": \"This is a Email Test message 24\"}\r","time":"2025-03-31T21:48:17Z"}
+{"level":"info","msg":"Sending email to recipient@example.com via smtp.mail.yahoo.com:587","time":"2025-03-31T21:48:17Z"}
+{"level":"error","msg":"SMTP SendMail error: 535 5.7.0 (#AUTH005) Too many bad auth attempts.","time":"2025-03-31T21:48:18Z"}
+{"level":"error","msg":"Failed to send email: 535 5.7.0 (#AUTH005) Too many bad auth attempts.","time":"2025-03-31T21:48:18Z"}
+{"level":"info","msg":"Received message: {\"to\": \"adrielnicolson1@gmail.com\", \"subject\": \"Test Email\", \"message\": \"This is a test email to adriel personal email\"}\r","time":"2025-03-31T21:49:23Z"}
+{"level":"info","msg":"Sending email to adrielnicolson1@gmail.com via smtp.mail.yahoo.com:587","time":"2025-03-31T21:49:23Z"}
+{"level":"error","msg":"SMTP SendMail error: 535 5.7.0 (#AUTH005) Too many bad auth attempts.","time":"2025-03-31T21:49:24Z"}
+{"level":"error","msg":"Failed to send email: 535 5.7.0 (#AUTH005) Too many bad auth attempts.","time":"2025-03-31T21:49:24Z"}
+{"level":"info","msg":"Redpanda Broker: cvio04uh700cr0ipltag.any.us-east-1.mpx.prd.cloud.redpanda.com:9092","time":"2025-03-31T22:09:49Z"}
+{"level":"info","msg":"Connecting to broker: cvio04uh700cr0ipltag.any.us-east-1.mpx.prd.cloud.redpanda.com:9092","time":"2025-03-31T22:09:49Z"}
+{"level":"info","msg":"Starting to poll for messages from topic 'emails'","time":"2025-03-31T22:09:49Z"}
+{"level":"info","msg":"Received message: {\"to\": \"adrielnicolson1@gmail.com\", \"subject\": \"Test Email\", \"message\": \"This is a test email to adriel personal email\"}\r","time":"2025-03-31T22:09:51Z"}
+{"level":"info","msg":"Sending email to adrielnicolson1@gmail.com via smtp-mail.outlook.com:587","time":"2025-03-31T22:09:51Z"}
+{"level":"error","msg":"SMTP SendMail error: 504 5.7.4 Unrecognized authentication type [BN9PR03CA0485.namprd03.prod.outlook.com 2025-03-31T22:09:56.586Z 08DD70434980857B]","time":"2025-03-31T22:10:02Z"}
+{"level":"error","msg":"Failed to send email: 504 5.7.4 Unrecognized authentication type [BN9PR03CA0485.namprd03.prod.outlook.com 2025-03-31T22:09:56.586Z 08DD70434980857B]","time":"2025-03-31T22:10:02Z"}
+{"level":"info","msg":"Received message: {\"to\": \"adrielnicolson1@gmail.com\", \"subject\": \"Test Email\", \"message\": \"This is a test email to Adriel's personal email 2\"}\r","time":"2025-03-31T22:10:56Z"}
+{"level":"info","msg":"Sending email to adrielnicolson1@gmail.com via smtp-mail.outlook.com:587","time":"2025-03-31T22:10:56Z"}
+{"level":"error","msg":"SMTP SendMail error: 504 5.7.4 Unrecognized authentication type [BN9PR03CA0111.namprd03.prod.outlook.com 2025-03-31T22:11:01.169Z 08DD6FD34FFAD507]","time":"2025-03-31T22:11:06Z"}
+{"level":"error","msg":"Failed to send email: 504 5.7.4 Unrecognized authentication type [BN9PR03CA0111.namprd03.prod.outlook.com 2025-03-31T22:11:01.169Z 08DD6FD34FFAD507]","time":"2025-03-31T22:11:06Z"}
+{"level":"info","msg":"Redpanda Broker: cvio04uh700cr0ipltag.any.us-east-1.mpx.prd.cloud.redpanda.com:9092","time":"2025-03-31T22:13:24Z"}
+{"level":"info","msg":"Connecting to broker: cvio04uh700cr0ipltag.any.us-east-1.mpx.prd.cloud.redpanda.com:9092","time":"2025-03-31T22:13:24Z"}
+{"level":"info","msg":"Starting to poll for messages from topic 'emails'","time":"2025-03-31T22:13:24Z"}
+{"level":"info","msg":"Received message: {\"to\": \"adrielnicolson1@gmail.com\", \"subject\": \"Test Email\", \"message\": \"This is a test email to adriel personal email\"}\r","time":"2025-03-31T22:13:26Z"}
+{"level":"info","msg":"Sending email to adrielnicolson1@gmail.com via smtp-mail.outlook.com:587","time":"2025-03-31T22:13:26Z"}
+{"level":"error","msg":"SMTP authentication error: 504 5.7.4 Unrecognized authentication type [BN0PR07CA0001.namprd07.prod.outlook.com 2025-03-31T22:13:31.289Z 08DD7015C595C879]","time":"2025-03-31T22:13:36Z"}
+{"level":"error","msg":"Failed to send email: 504 5.7.4 Unrecognized authentication type [BN0PR07CA0001.namprd07.prod.outlook.com 2025-03-31T22:13:31.289Z 08DD7015C595C879]","time":"2025-03-31T22:13:36Z"}
+{"level":"info","msg":"Received message: {\"to\": \"adrielnicolson1@gmail.com\", \"subject\": \"Test Email\", \"message\": \"This is a test email to Adriel's personal email 2\"}\r","time":"2025-03-31T22:13:36Z"}
+{"level":"info","msg":"Sending email to adrielnicolson1@gmail.com via smtp-mail.outlook.com:587","time":"2025-03-31T22:13:36Z"}
+{"level":"error","msg":"SMTP authentication error: 504 5.7.4 Unrecognized authentication type [BN9P223CA0023.NAMP223.PROD.OUTLOOK.COM 2025-03-31T22:13:41.802Z 08DD702F637177C7]","time":"2025-03-31T22:13:47Z"}
+{"level":"error","msg":"Failed to send email: 504 5.7.4 Unrecognized authentication type [BN9P223CA0023.NAMP223.PROD.OUTLOOK.COM 2025-03-31T22:13:41.802Z 08DD702F637177C7]","time":"2025-03-31T22:13:47Z"}
+{"level":"info","msg":"Redpanda Broker: cvio04uh700cr0ipltag.any.us-east-1.mpx.prd.cloud.redpanda.com:9092","time":"2025-03-31T22:27:04Z"}
+{"level":"info","msg":"Connecting to broker: cvio04uh700cr0ipltag.any.us-east-1.mpx.prd.cloud.redpanda.com:9092","time":"2025-03-31T22:27:04Z"}
+{"level":"info","msg":"Starting to poll for messages from topic 'emails'","time":"2025-03-31T22:27:04Z"}
+{"level":"info","msg":"Received message: {\"to\": \"adrielnicolson1@gmail.com\", \"subject\": \"Test Email\", \"message\": \"This is a test email to adriel personal email\"}\r","time":"2025-03-31T22:27:06Z"}
+{"level":"info","msg":"Sending email to adrielnicolson1@gmail.com via smtp.gmail.com:587","time":"2025-03-31T22:27:06Z"}
+{"level":"error","msg":"SMTP SendMail error: 535 5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 00721157ae682-7023a98a20csm24141607b3.88 - gsmtp","time":"2025-03-31T22:27:07Z"}
+{"level":"error","msg":"Failed to send email: 535 5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 00721157ae682-7023a98a20csm24141607b3.88 - gsmtp","time":"2025-03-31T22:27:07Z"}
+{"level":"info","msg":"Received message: {\"to\": \"adrielnicolson1@gmail.com\", \"subject\": \"Test Email\", \"message\": \"This is a test email to Adriel's personal email 2\"}\r","time":"2025-03-31T22:27:07Z"}
+{"level":"info","msg":"Sending email to adrielnicolson1@gmail.com via smtp.gmail.com:587","time":"2025-03-31T22:27:07Z"}
+{"level":"error","msg":"SMTP SendMail error: 535 5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 00721157ae682-7023a98a35fsm23776027b3.82 - gsmtp","time":"2025-03-31T22:27:08Z"}
+{"level":"error","msg":"Failed to send email: 535 5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 00721157ae682-7023a98a35fsm23776027b3.82 - gsmtp","time":"2025-03-31T22:27:08Z"}
+{"level":"info","msg":"Redpanda Broker: cvio04uh700cr0ipltag.any.us-east-1.mpx.prd.cloud.redpanda.com:9092","time":"2025-03-31T22:31:35Z"}
+{"level":"info","msg":"Connecting to broker: cvio04uh700cr0ipltag.any.us-east-1.mpx.prd.cloud.redpanda.com:9092","time":"2025-03-31T22:31:35Z"}
+{"level":"info","msg":"Starting to poll for messages from topic 'emails'","time":"2025-03-31T22:31:35Z"}
+{"level":"info","msg":"Received message: {\"to\": \"adrielnicolson1@gmail.com\", \"subject\": \"Test Email\", \"message\": \"This is a test email to adriel personal email\"}\r","time":"2025-03-31T22:31:36Z"}
+{"level":"info","msg":"Sending email to adrielnicolson1@gmail.com via smtp.gmail.com:587","time":"2025-03-31T22:31:36Z"}
+{"level":"error","msg":"SMTP SendMail error: 535 5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 3f1490d57ef6-e6b711b7595sm2116172276.2 - gsmtp","time":"2025-03-31T22:31:37Z"}
+{"level":"error","msg":"Failed to send email: 535 5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 3f1490d57ef6-e6b711b7595sm2116172276.2 - gsmtp","time":"2025-03-31T22:31:37Z"}
+{"level":"info","msg":"Received message: {\"to\": \"adrielnicolson1@gmail.com\", \"subject\": \"Test Email\", \"message\": \"This is a test email to Adriel's personal email 2\"}\r","time":"2025-03-31T22:31:37Z"}
+{"level":"info","msg":"Sending email to adrielnicolson1@gmail.com via smtp.gmail.com:587","time":"2025-03-31T22:31:37Z"}
+{"level":"error","msg":"SMTP SendMail error: 535 5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 3f1490d57ef6-e6b7134796fsm2068996276.47 - gsmtp","time":"2025-03-31T22:31:38Z"}
+{"level":"error","msg":"Failed to send email: 535 5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 3f1490d57ef6-e6b7134796fsm2068996276.47 - gsmtp","time":"2025-03-31T22:31:38Z"}
