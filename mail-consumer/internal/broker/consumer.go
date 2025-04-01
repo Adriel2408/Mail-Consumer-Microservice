@@ -9,6 +9,7 @@ import (
 
 	"github.com/sirupsen/logrus"
 	"github.com/twmb/franz-go/pkg/kgo"
+	"github.com/twmb/franz-go/pkg/kmsg"
 	"github.com/twmb/franz-go/pkg/sasl"
 	"github.com/twmb/franz-go/pkg/sasl/scram"
 )
@@ -82,14 +83,29 @@ func (c *Consumer) Consume() {
 				c.log.Error("Failed to send email: ", err)
 			} else {
 				c.log.Info("Email sent successfully for message: ", string(record.Value))
-				// Mark the record as processed
-				client.MarkCommitRecords(record)
+
+				// Delete the record from the topic
+				deleteRequest := &kmsg.DeleteRecordsRequest{
+					Topics: []kmsg.DeleteRecordsRequestTopic{
+						{
+							Topic: record.Topic,
+							Partitions: []kmsg.DeleteRecordsRequestTopicPartition{
+								{
+									Partition: record.Partition,
+									Offset:    record.Offset + 1, // Delete up to this offset
+								},
+							},
+						},
+					},
+				}
+
+				deleteResponse, err := deleteRequest.RequestWith(context.Background(), client)
+				if err != nil {
+					c.log.Error("Failed to delete record: ", err)
+				} else {
+					c.log.Info("Deleted records up to offset: ", deleteResponse.Topics[0].Partitions[0].LowWatermark)
+				}
 			}
 		})
-
-		// Commit offsets for all processed records
-		if err := client.CommitUncommittedOffsets(context.Background()); err != nil {
-			c.log.Error("Failed to commit offsets: ", err)
-		}
 	}
 }
